@@ -66,3 +66,12 @@
     }
   }
 }
+
+.gallery {
+  width: 100%;
+  margin-top: 60px;
+  .cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
