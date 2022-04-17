@@ -6,12 +6,15 @@
   background-size: cover;
 
   .brand {
-    position: absolute;
-    top: 15%;
-    left: 50%; // not to sure about this, since it can be centered with flexbox, justify content and align items.
-    transform: translate(-50%, -50%);
+    @include centering(15%);
     display: flex;
     align-items: center;
     //justify-content: center;
+  }
+
+  &-banner {
+    @include centering(50%);
+    text-align: center;
+    color: #fff;
   }
 }
